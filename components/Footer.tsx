@@ -13,7 +13,8 @@ const Footer: React.FC = () => {
               href={link.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-gold transition-colors duration-300"
+              className="text-gold hover:opacity-80 transition-opacity duration-300"
+              aria-label={`Follow us on ${link.name}`}
             >
               {link.icon}
             </a>

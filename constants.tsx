@@ -1,4 +1,3 @@
-
 import React from 'react';
 import type { Product } from './types';
 
@@ -14,8 +13,10 @@ const IconPlaceholder: React.FC<{ name: string; className?: string }> = ({ name,
 
 
 export const NAV_LINKS = [
-  { name: 'Shop', href: '#/' },
+  { name: 'Home', href: '#/' },
+  { name: 'Shop', href: '#/shop' },
   { name: 'About Us', href: '#/about' },
+  { name: 'Inspiration', href: '#/inspiration' },
   { name: 'Contact', href: '#/contact' },
 ];
 
